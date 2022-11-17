@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        
+    <title>Document</title>
+
+</head>
+<body>
+    
+    <form action="index.html" method="get">
+        <div>
+
+            <label  for="username">Username:</label>
+        <input type="text" name="Username"
+         id="username" placeholder="Enter Username/phonenumber" size="25"  maxlength="15" required>
+        </div>
+        <br>
+   <div>
+
+       <label>Password:
+       <input type="password" name="Password"
+        placeholder="Enter Password" size="25" 
+        maxlength="10" minlength="5" required>
+       </label>
+   </div>
+   <div>
+    <label> Age:</label>
+    <input type="number" name="age" id="age" maxlength="2" min="13" max="80" required>
+   </div>
+   <div>
+    <label>DateOfBirth:</label>
+    <input type="date" name="dateofbirth" required>
+   </div>
+   <div>
+    <label for="gender">Male</label>
+    <input type="radio" name="male" id="gender" >
+   </div>
+<div>
+    <label for="gender">Female</label>
+    <input type="radio"  name="female" id="gender">
+</div>
+   <button type="submit">Signup</button>
+   <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
